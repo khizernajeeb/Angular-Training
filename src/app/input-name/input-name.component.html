@@ -1,0 +1,9 @@
+<p>
+    Enter Value: <input type="text" #box (keyup)="onKey(box.value)" />
+</p>
+
+<p>
+    Reverse Value: <input value="{{values}}" type="text" disabled />
+</p>
+
+<button (click)="addNewItem(box.value)"> Submit </button>

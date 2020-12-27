@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularApp';
+
+  name = "Angular ";
+
+  updateName(name: any) {
+    this.name = name;
+  }
 }
